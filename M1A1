@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int s1,s2,s3,s4,s5,sum;
+float avg;
+clrscr();
+
+printf("\n Enter English Subject : ");
+scanf("%d",&s1);
+
+printf("\n Enter Math Subject : ");
+scanf("%d",&s2);
+
+printf("\n Enter Science Subject : ");
+scanf("%d",&s3);
+
+printf("\n Enter Filipino Subject : ");
+scanf("%d",&s4);
+
+printf("\n Enter M.A.P.E.H Subject : ");
+scanf("%d",&s5);
+
+sum = s1+s2+s3+s4+s5;
+printf("\n\n THE SUMATION IS %d ",sum);
+avg = sum/5;
+printf("\n\n THE AVERAGE IS %.2f",avg);
+getch();
+}
